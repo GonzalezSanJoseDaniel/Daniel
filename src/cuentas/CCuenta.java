@@ -87,7 +87,7 @@ public class CCuenta {
     public double getTipoInterés() {
         return tipoInterés;
     }
-
+//jbhj
     /**
      * @param tipoInterés the tipoInterés to set
      */
