@@ -1,6 +1,16 @@
 package cuentas;
-public class CCuenta {
 
+/**
+ * Esta clase realiza operaciones de ingreso y retirada, además puede propocionar
+ * información sobre el estado de la cuenta, y su tipo de interés.
+ * @author 4a1da
+ */
+
+public class CCuenta {
+    
+/**
+ * Aquí almacenamos los datos.
+ */
 
     private String nombre;
     private String cuenta;
@@ -13,7 +23,7 @@ public class CCuenta {
 
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
-        nombre =nom;
+        nombre=nom;
         cuenta=cue;
         saldo=sal;
     }
@@ -40,56 +50,56 @@ public class CCuenta {
            }
 
     /**
-     * @return the nombre
+     * @return el nombre.
      */
     public String getNombre() {
         return nombre;
     }
 
     /**
-     * @param nombre the nombre to set
+     * @param nombre el nombre a elegir.
      */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
     /**
-     * @return the cuenta
+     * @return la cuenta.
      */
     public String getCuenta() {
         return cuenta;
     }
 
     /**
-     * @param cuenta the cuenta to set
+     * @param cuenta la cuenta a elegir.
      */
     public void setCuenta(String cuenta) {
         this.cuenta = cuenta;
     }
 
     /**
-     * @return the saldo
+     * @return el saldo.
      */
     public double getSaldo() {
         return saldo;
     }
 
     /**
-     * @param saldo the saldo to set
+     * @param saldo el saldo a elegir.
      */
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
     /**
-     * @return the tipoInterés
+     * @return el tipo de interés.
      */
     public double getTipoInterés() {
         return tipoInterés;
     }
-//jbhj
+
     /**
-     * @param tipoInterés the tipoInterés to set
+     * @param tipoInterés ajusta el tipo de interés.
      */
     public void setTipoInterés(double tipoInterés) {
         this.tipoInterés = tipoInterés;
